@@ -1,0 +1,13 @@
+.sermon-wrapper {padding:5px 0;}
+.d-c {display:block;}
+a.download {
+	display:block;
+	background:url('../images/download-button.b.gif') no-repeat center transparent;
+	height:64px;
+	width:62px;
+	float:left;
+}
+ul.files {
+	padding:5px 0 5px 40px;
+	list-style-type: disc;
+}

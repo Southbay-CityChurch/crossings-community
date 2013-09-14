@@ -1,0 +1,10 @@
+Frameworks
+----------
+
+
+These are collections of scripts loosely bound together into a framework.
+The code doesn't know the framework name space so this is purely for our easy of understanding and management.
+
+If ini.php is calling "Constantize::defineConstantsForEachFramework();" then each framework file name will be defined as a constant <FRAMEWORK_NAME>_FRAMEWORK that way we can load up a framework by doing require(STRING_FRAMEWORK); for the string framework.
+
+Another nice thing about the frameworks is that the classes that make up the framework are placed in the frameworks' directory, upon loading the framework all these files/classes are loaded as well. I guess there is now no reason not to have each class be its own file....

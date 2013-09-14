@@ -1,0 +1,99 @@
+body {
+   background:#CBEBF9;
+   margin:0;
+   padding:0;
+   color:#666;
+   font: normal 0.8em/1.5em Arial, sans-serif;
+}
+
+a { color:#6D98AC; }
+
+h1 {
+   height:245px;
+   background-repeat:no-repeat;
+   background-color: transparent;
+   background-position: top left;
+   padding:0;
+   margin:0;
+   margin-bottom:29px;
+}
+
+h1 span,
+.hide   { display:none; }
+h1.directions { background-image: url('../images/header/directions.jpg'); }
+h1.fs   { background-image: url('../images/header/foodschedule.jpg');       }
+h1.ra   { background-image: url('../images/header/roomassignments.jpg');    }
+h1.cn   { background-image: url('../images/header/contactnumbers.jpg');     }
+h1.home { background-image: url('../images/header/home.jpg'); height:312px; }
+h1.dl   { background-image: url('../images/header/downloads.jpg');          }
+
+h2 + h3 {
+	margin: 0;
+}
+
+h2 {
+   font-size:1em;
+   color:#89B056;
+   font-weight: bold;
+   margin-top:30px;
+	margin-bottom: 0;
+}
+h3 {
+   font-size:1em;
+	font-weight: normal;
+	margin-top: 0;
+}
+p {
+	margin: 0 0 10px 0;
+}
+#contain {
+   width:765px;
+   margin:31px auto 0;
+   background:url('../images/background.gif') repeat-y transparent;
+   position:relative;
+}
+
+#footer {
+   background:url('../images/footer.gif') no-repeat transparent;
+   height:44px;
+}
+
+.copyright {
+   text-align: center;
+}
+.small {
+   font-size:80%;
+}
+
+#content {margin:0 44px 0 245px;}
+
+#navigation {
+   width:203px;
+   position:absolute;
+   z-index:2;
+   left:42px;
+   top:274px;
+   padding:0;
+   margin:0;
+   list-style:none;
+}
+
+#navigation li a {
+	height:18px;
+	padding:0;
+	display:block;
+	background:url('../images/nav/home.gif') no-repeat center transparent;
+}
+
+#navigation li a span { display:none; }
+#navigation li.blog  a {background-image: url('../images/nav/blog.gif');}
+#navigation li.md a {background-image: url('../images/nav/md.gif');}
+#navigation li.cn a {background-image: url('../images/nav/cn.gif');}
+#navigation li.fs a {background-image: url('../images/nav/fs.gif');}
+#navigation li.ra a {background-image: url('../images/nav/ra.gif');}
+#navigation li.dl a {background-image: url('../images/nav/downloads.gif');}
+
+.highlight { color:#f00; }
+.room, .phone { display:block; color:#999; }
+.meeting { background:#fffcea; font-weight: bold; padding: 5px 10px; }
+#content .food_schedule p, #content .rooms p  { margin-left:20px; }

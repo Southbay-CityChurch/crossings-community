@@ -1,0 +1,40 @@
+DirectoryIndex index.php index.html
+Options +FollowSymLinks
+
+#For brian's machine
+# RewriteBase /~banders/projects/matthew
+
+#For powweb
+RewriteBase /sermons/
+
+
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   
+   #Trying to not worry about the trailing slash
+   RewriteCond %{REQUEST_URI} /sermons$
+   RewriteRule ^(.*)$ $1/ [L]
+   
+   # can I make and ID out of this?
+   RewriteCond %{REQUEST_URI} /[0-9]+$
+   RewriteRule /([0-9]+)(/?)$ ?id=$1
+   
+
+
+   # If it already includes app don't forward anymore
+   RewriteCond %{REQUEST_URI} app/*
+   RewriteRule ^(.+) - [PT,L]
+
+   
+   # If this is not a public request then forward to app
+   RewriteCond %{REQUEST_URI} !public/*
+   RewriteRule ^(.*) app/$1 [L]
+   
+   
+   # # can I make and ID out of this?
+   # RewriteCond %{REQUEST_URI} /[0-9]+$
+   # RewriteRule ^(.*)/[0-9]+$ app/$1?id=$2 [L]
+   
+
+   
+</IfModule>

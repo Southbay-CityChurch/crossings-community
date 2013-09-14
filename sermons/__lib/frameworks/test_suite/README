@@ -1,0 +1,48 @@
+A very small and lightweight unit testing framework.
+
+The basics set up a test class, each method that begins with test_ will get
+Run automatically. After each test method has been run, it will print out some
+stats about the test you just ran.
+
+two special methods: 
+   initial_setup() -- this is called once before any of the tests are run.
+   setup() -- called before each test is run.
+
+
+Here is a sample PHP script used to do unit testing
+----------------------------------------------------
+
+<?php
+require_once('../../../config/init.php');
+
+require_once(TEST_SUITE_FRAMEWORK);
+require_once(CLI_FRAMEWORK);
+
+
+class cliTest extends UnitTest {
+   
+   
+   function initial_setup() {
+      $this->sandbox = dirname(__FILE__) . '/../' . 'sandbox/';
+      
+      // $this->test_only = [array of method names or string of a method name]
+      $this->test_all_except = 'deep_copy';
+      
+   }
+   
+   function setup() {      
+   }
+
+
+   function test_cli_is_properly_loaded() {
+      $this->assert_includes('generator', LoadUtility::whatIsLoaded());
+   }
+   
+   function test_deep_copy() {
+      $this->assert(is_dir($this->sandbox));
+   }
+   
+}
+
+$tests = new cliTest();
+$tests->runTests();

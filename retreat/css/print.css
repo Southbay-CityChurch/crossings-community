@@ -1,0 +1,7 @@
+#navigation, #navigation * {
+   display:none;
+}
+
+h1 span {
+   display:inline;
+}
