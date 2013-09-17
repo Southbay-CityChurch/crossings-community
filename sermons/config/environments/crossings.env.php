@@ -1,6 +1,8 @@
 <?php
 
-define("ROOT", '/Applications/MAMP/htdocs/crossings/1.0');
+define("ROOT", '/Users/eric/bin/github/crossings-community');
 define("URL_ROOT", '/sermons/');
+
+// define(LOG_LEVEL,  LOG_DEBUG);
 
 ?>
