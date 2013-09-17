@@ -7,7 +7,7 @@ require_once(STRING_FRAMEWORK);
 require_once(CACHED_SERIES_DATA_MODEL);
 require_once(SERIES_DATA_MODEL);
 
-define('LAYOUT',    'site');
+define('LAYOUT', 'site');
 
 
 $series_data = new CachedSeries();
@@ -20,34 +20,31 @@ if(isset($_REQUEST['id'])) {
 }
 
 if ($id > 0 && $series_data->hasWeek($id)) {
-   $week_data = $series_data->getSeriesData($id);
-   
-   echo Render::partial('files', array('week' => $week_data->week_number,
-																	     'series' => $week_data->series,
-																	     'title' => $week_data->title,
-                                       'date' => $week_data->date,
-                                       'author' => $week_data->author,
-                                       'files' => $week_data->files,
-                                       'itunes_podcast' => $series_data->itunes_podcast
-                                      ));
-                                      
+	$week_data = $series_data->getSeriesData($id);
+
+	echo Render::partial('files', array('week'           => $week_data->week_number,
+										'series'         => $week_data->series,
+										'title'          => $week_data->title,
+										'date'           => $week_data->date,
+										'author'         => $week_data->author,
+										'files'          => $week_data->files,
+										'itunes_podcast' => $series_data->itunes_podcast
+									));
+
 
 } else {
-   echo '<p id="series-summary">' . $series_data->summary;
-      //echo '<br/> Click to visit the <a href="' . $series_data->itunes_podcast . '" title="Subscribe to the Sermon Series">Crossings Podcast</a> via iTunes.';
-   echo '</p>';
-   
-   foreach($series_data->getSeriesData() as $week_data) {
+	echo '<p id="series-summary">' . $series_data->summary . '</p>';
+	foreach($series_data->getSeriesData() as $week_data) {
 
-        echo Render::partial('week', array( 'week' => $week_data->week_number,
-          																	'series' => $week_data->series,
-                                            'title' => $week_data->title,
-                                            'summary' => $week_data->summary,
-                                            'date' => $week_data->date,
-                                            'author' => $week_data->author,
-                                            'files' => $week_data->files,
-                                           ));
-     }
+		echo Render::partial('week', array( 'week'    => $week_data->week_number,
+											'series'  => $week_data->series,
+											'title'   => $week_data->title,
+											'summary' => $week_data->summary,
+											'date'    => $week_data->date,
+											'author'  => $week_data->author,
+											'files'   => $week_data->files,
+										));
+	}
 }
 
 
