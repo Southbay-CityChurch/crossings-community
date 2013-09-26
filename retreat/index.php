@@ -9,6 +9,12 @@
 				line-height: 1.5;
 				font-size: 120%;
 			}
+			section {
+				margin-bottom: 1rem;
+				overflow: hidden;
+				clear: both;
+			}
+			img { max-width: 100%; }
 			h1, h2, h3, h4, h5, h6 {
 				clear: both;
 				margin-bottom: 0;
@@ -39,11 +45,6 @@
 				margin: 1rem auto;
 				max-width: 800px;
 				padding: 0 1rem;
-			}
-			section {
-				margin-bottom: 1rem;
-				overflow: hidden;
-				clear: both;
 			}
 			#footer {
 				clear: both;
@@ -94,7 +95,15 @@
 				<h1><span>Crossings Tahoe Retreat</span></h1>
 				<p class="scripture"><em>&ldquo;&hellip;praying at all times in the Spirit, with all prayer and supplication. To that end keep alert with all perseverance, making supplication for all the saints&hellip;&rdquo;</em><br /><span class="reference">Ephesians 6:18 ESV</span></p>
 				<h3>To the Main House</h3>
-				<p class="directions-link"><a href="https://www.google.com/maps?q=661+Jack+Drive,+Stateline,+NV+89449&sll=37.28054199999999,-121.95546700000001&sspn=0.10490496008090859,0.1757981961921995&t=m&hnear=661+Jack+Dr,+Stateline,+Nevada+89449&z=16" title="Google Maps Directions" target="_blank">661 Jack Drive, Stateline, NV 89449</a></p>
+				
+				<p class="directions-link">
+					<a href="images/map.png" title="Google Maps Directions" target="_blank">
+						<img src="images/map.png">
+					</a>
+					<a href="https://www.google.com/maps?q=661+Jack+Drive,+Stateline,+NV+89449&sll=37.28054199999999,-121.95546700000001&sspn=0.10490496008090859,0.1757981961921995&t=m&hnear=661+Jack+Dr,+Stateline,+Nevada+89449&z=16" title="Google Maps Directions" target="_blank">
+						661 Jack Drive, Stateline, NV 89449
+					</a>
+				</p>
 				<ol>
 					<li>From Campbell, head north on CA-17/I-880. Exit onto Mission Blvd toward Sacramento/I-680. Merge onto I-680 N toward Sacramento.</li>
 					<li>Continue on I-680 to the Benicia-Martinez Bridge. You'll need $5 in cash for the toll.</li>
