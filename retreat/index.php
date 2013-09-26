@@ -78,6 +78,7 @@
 			.house-assignments li {
 				width: 33.3%;
 				float: left;
+				text-align: center;
 			}
 			.directions li {
 				margin-left: 1.75rem;
@@ -202,6 +203,20 @@ while(x=eval(x));
 					<li>If you are signed up for a "helper" spot, please remember to maintain that detail throughout the weekend.</li>
 					<li>For those coming up early, meals won't be provided until Friday, so plan accordingly. There will be a pizza night on Thursday for those arriving in time.</li>
 					<li>Cooking and baking are very different at high altitude! <a href="http://www.kingarthurflour.com/recipe/high-altitude-baking.html" target="_blank">See this link</a> about how to adjust your recipes. Keep in mind that our cabin is located at 7200ft above sea level.</li>
+				</ul>
+			</section>
+			<section class="grocery-stores">
+				<h1><span>Grocery Stores</span></h1>
+				<h2>Nearby the Main House</h2>
+				<ul>
+					<li><strong><a href="https://www.google.com/maps?q=4000+Lake+Tahoe+Blvd,+Ste+6,+South+Lake+Tahoe,+CA+96150" target="_blank">Raley's</a></strong><br>4.6 miles - 4000 Lake Tahoe Blvd, Ste 6, South Lake Tahoe, CA 96150</li>
+					<li><strong><a href="https://www.google.com/maps?q=212+Elks+Point+Rd,+Zephyr+Cove,+NV+89448" target="_blank">Safeway's</a></strong><br>4.9 miles - 212 Elks Point Rd, Zephyr Cove, NV 89448</li>
+					<li><strong><a href="https://www.google.com/maps?q=2030+Dunlap+Dr,+South+Lake+Tahoe,+CA+96150" target="_blank">Grass Roots Natural Foods</a></strong><br>9.2 miles - 2030 Dunlap Dr, South Lake Tahoe, CA 96150</li>
+				</ul>
+				<h2>In Carson City</h2>
+				<ul>
+					<li><strong><a href="https://www.google.com/maps?q=700+Old+Clear+Creek+Rd,+Carson+City,+NV+89705" target="_blank">Costco</a></strong><br>22.4 miles - 700 Old Clear Creek Rd, Carson City, NV 89705</li>
+					<li><strong><a href="https://www.google.com/maps?q=3790+Us+Hwy+395+S,+Carson+City,+NV+89705" target="_blank">Trader Joe's</a></strong><br>21.8 miles - 3790 Us Hwy 395 S, Carson City, NV 89705</li>
 				</ul>
 			</section>
 			<section class="what-to-bring">
