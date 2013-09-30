@@ -110,9 +110,10 @@
 					<li>Continue on I-680 for 13 more miles. Keep right at the fork and merge onto I-80 E. Stay on I-80 for about 40 more miles.</li>
 					<li>Continue on I-80Bus E/US-50 E/Capital City Freeway toward South Lake Tahoe. After 5 miles, stay on US-50 E.</li>
 					<li>After about 95 miles, turn right on Pioneer Trail. In another 8 miles, turn right on US-50 E/Lake Tahoe Blvd, and head on into Nevada. </li>
-					<li>Turn right on Kingsbury Grade Road.</li>
-					<li>Turn right on S Benjamin Drive.</li>
-					<li>Turn right onto Jack Drive. The house will be on the left in about a half of a mile.</li>
+					<li>Turn right on SR-207/Kingsbury Grade Road.</li>
+					<li>In about 3 miles, turn right on S Benjamin Drive.</li>
+					<li>Turn right on Bonnie Ct. Follow to the end</li>
+					<li>Turn left onto Jack Drive. The house will be on the right. Park along the right side of the road.</li>
 				</ol>
 			</section>
 			<section class="contacts">
