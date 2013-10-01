@@ -111,7 +111,7 @@
 					<li>Continue on I-80Bus E/US-50 E/Capital City Freeway toward South Lake Tahoe. After 5 miles, stay on US-50 E.</li>
 					<li>After about 95 miles, turn right on Pioneer Trail. In another 8 miles, turn right on US-50 E/Lake Tahoe Blvd, and head on into Nevada. </li>
 					<li>Turn right on SR-207/Kingsbury Grade Road.</li>
-					<li>In about 3 miles, turn left on N Benjamin Drive.</li>
+					<li>In about 3 miles, you'll see a sign for "Bautovich Park". Your next turn will be left on the very next street, No. Benjamin Drive.</li>
 					<li>Take 2nd right on Bradbury Way, then turn right onto Barret Dr.</li>
 					<li>Take 1st left onto Maryanne Dr. The house will be second on the left.</li>
 				</ol>
