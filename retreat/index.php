@@ -100,8 +100,8 @@
 					<a href="images/map.png" title="Google Maps Directions" target="_blank">
 						<img src="images/map.png">
 					</a>
-					<a href="https://www.google.com/maps?q=661+Jack+Drive,+Stateline,+NV+89449&sll=37.28054199999999,-121.95546700000001&sspn=0.10490496008090859,0.1757981961921995&t=m&hnear=661+Jack+Dr,+Stateline,+Nevada+89449&z=16" title="Google Maps Directions" target="_blank">
-						661 Jack Drive, Stateline, NV 89449
+					<a href="https://www.google.com/maps?q=342+Maryanne+Drive,+Kingsbury,+NV&sll=38.335478912242635,-120.93608184936261&sspn=2.9043573968007217,6.143499530171335&t=m&hnear=342+Maryanne+Dr,+Kingsbury,+Douglas,+Nevada+89448&z=16" title="Google Maps Directions" target="_blank">
+						342 Maryanne Dr. Kingsbury, NV 89448
 					</a>
 				</p>
 				<ol>
@@ -111,9 +111,9 @@
 					<li>Continue on I-80Bus E/US-50 E/Capital City Freeway toward South Lake Tahoe. After 5 miles, stay on US-50 E.</li>
 					<li>After about 95 miles, turn right on Pioneer Trail. In another 8 miles, turn right on US-50 E/Lake Tahoe Blvd, and head on into Nevada. </li>
 					<li>Turn right on SR-207/Kingsbury Grade Road.</li>
-					<li>In about 3 miles, turn right on S Benjamin Drive.</li>
-					<li>Turn right on Bonnie Ct. Follow to the end</li>
-					<li>Turn left onto Jack Drive. The house will be on the right. Park along the right side of the road.</li>
+					<li>In about 3 miles, turn left on N Benjamin Drive.</li>
+					<li>Take 2nd right on Bradbury Way, then turn right onto Barret Dr.</li>
+					<li>Take 1st left onto Maryanne Dr. The house will be second on the left.</li>
 				</ol>
 			</section>
 			<section class="contacts">
@@ -179,14 +179,13 @@ while(x=eval(x));
 					<li>Plett</li>
 					<li>Ritchey</li>
 					<li>Russo</li>
-					<li>Shea</li>
 					<li>Zamora</li>
 				</ul>
 				<h2>Zink House</h2>
 				<ul>
 					<li>Goulding</li>
 					<li>Miranda</li>
-					<li>Scianna</li>
+					<li>Shea</li>
 					<li>Zink</li>
 				</ul>
 			</section>
@@ -206,7 +205,7 @@ while(x=eval(x));
 				<h1><span>Notes</span></h1>
 				<ul>
 					<li>If you'll need any specific tool for a meal, make sure to bring it! There's no way to know what will be available at the main house.</li>
-					<li>Please remember to only bring refrigerated items during your designated time frame since there are only 2 refrigerators for the whole group.</li>
+					<li>Please remember to only bring refrigerated items during your designated time frame since there is only one refrigerators for the whole group.</li>
 					<li>Do not leave any leftover food from your meal after the retreat is concluded.</li>
 					<li>Please be considerate with your portion size when serving up food. Wait on seconds until everyone has had a chance to eat.</li>
 					<li>If you are on "meal duty", you are also on garbage and clean up detail. Please locate the garbage bags and remove them.</li>
@@ -237,7 +236,6 @@ while(x=eval(x));
 					<li>Extra towels-unless you really like to share</li>
 					<li>Baby Monitors-since there aren't any babysitters for the evening meetings</li>
 					<li>Clothes for colder weather</li>
-					<li>Swimsuits if you want to go in the pool or jacuzzi</li>
 				</ul>
 			</section>
 			<section class="forecast">
