@@ -2891,3 +2891,39 @@ series_data:
         duration: 31:47
         files:
             audio: 2013/Reflections from the Acts Course (Summer, 2013).mp3
+    301:
+        date: 9/15/13
+        author: Trevor Zink
+        series: Spiritual Warfare
+        title: Angels
+        summary: 
+        duration: 35:25
+        files:
+            audio: SpiritualWarfare/06 Angels.mp3
+    302:
+        date: 9/22/13
+        author: Eric Ritchey, Will Goulding, James Carleton, Ivan Russo
+        series: Spiritual Warfare
+        title: Examples of Spiritual Battles Throughout Scripture
+        summary: Looking at a few examples of spiritual battles in scripture reveals that throughout history there has been spiritual forces at work, even when we don't recognize them. 
+        duration: 49:50
+        files:
+            audio: SpiritualWarfare/07 Examples of Spiritual Battles Throughout Scripture.mp3
+    303:
+        date: 9/29/13
+        author: Doug Shiplett
+        series: Standalone Sermon
+        title: Importance of Prayer
+        summary: Leading up to retreat, Doug shares some of his thoughts on prayer
+        duration: 49:50
+        files:
+            audio: 2013/Importance of Prayer.mp3
+    304:
+        date: 10/13/13
+        author: Trevor Zink
+        series: Standalone Sermon
+        title: Crossings Plant
+        summary: Crossings discusses the need for planting out another church.
+        duration: 46:38
+        files:
+            audio: 2013/Crossings Plant.mp3
